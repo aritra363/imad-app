@@ -1,0 +1,139 @@
+.heading{
+    font-size:70px;
+    font-family:cursive;
+    text-align:left;
+    color:black;
+    font-style:oblique; 
+    text-decoration:none;
+    font-weight: 700;
+}       
+.back
+{ 
+    background-color: gainsboro;
+}
+.fr1
+{   position:fixed;
+    color:black;
+    font-size:15px; 
+    font-family: cursive;
+    font-weight:600;
+    left:550px;
+    top:250px;
+    }
+
+.but
+{
+    position: relative;
+    padding:5px 50px;
+    background-color:grey;
+    font-size:15px;
+    margin:0;
+    border:none;
+    font-family: cursive;
+    color:black;
+    font-weight:700;
+    border-radius:2px; 
+    transition-duration:0.5s; 
+    
+}
+.but:hover{
+    color:whitesmoke;
+    background-color:gainsboro;
+    border:1px solid grey;
+}
+
+.logo
+{ 
+    position:fixed;
+    right:850px;    
+    top:20px;
+    width:8%;
+    height:15%;
+    
+}
+.f
+{
+    background-color:gainsboro;
+    color:black;
+    border:none;
+    border-bottom-width: thick;
+    border-bottom-color:;
+    border-bottom:1px solid;
+    border-bottom-style: groove;
+    border-bottom-color: azure;
+    font-family: cursive;
+    font-size:30px; 
+}
+.f1
+{   position:fixed;
+    background-color:gainsboro;
+    color:black;
+    border:none;
+    border-bottom-width: thick;
+    border-bottom-color:;
+    border-bottom:1px solid;
+    border-bottom-style: groove;
+    border-bottom-color: azure;
+    font-family: cursive;
+    font-size:30px;
+    top:290px;
+}
+  
+    
+
+.fullscreen { 
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
+.but1
+{
+    position:fixed;
+    padding:5px 50px;
+    background-color:grey;
+    font-size:15px;
+    margin:0;
+    border:none;
+    font-family: cursive;
+    color:black;
+    font-weight:700;
+    border-radius:2px;
+    top:380px;
+    left:550px;
+    transition-duration:0.5s; 
+    
+}
+.but1:hover{
+    color:whitesmoke;
+    background-color:gainsboro;
+    border:1px solid grey;
+}
+.but2
+{
+    position:fixed;
+    padding:5px 50px;
+    background-color:grey;
+    font-size:15px;
+    margin:0;
+    border:none;
+    font-family: cursive;
+    color:black;
+    font-weight:700;
+    border-radius:2px;
+    top:380px;
+    left:720px;
+    transition-duration:0.5s;
+    text-decoration:none;
+    
+}
+.but2:hover{
+    color:whitesmoke;
+    background-color:gainsboro;
+    border:1px solid grey;
+}
