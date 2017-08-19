@@ -20,7 +20,7 @@ app.get('/article1', function (req, res) {
   res.sendFile(path.join(__dirname,'ui','art.html'));
 });
 app.get('/ui/st.css', function (req, res) {
-  res.sendFile(path.join(__dirname,'ui','st.css'));
+  res.sendFile(path.join(__dirname,'ui','art.css'));
 });
 
 app.get('/article2', function (req, res) {
