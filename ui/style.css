@@ -19,4 +19,17 @@ body {
 .img-medium {
     height: 200px;
 }
+.bod
+        {
+            background-color:orange;
+        }
+        .image
+        {
+            height:200px;
+            width:200px;
+        }
+        .head
+        {
+         color:green;    
+        }
 
