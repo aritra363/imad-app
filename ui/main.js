@@ -4,5 +4,5 @@ alert("Hi!bye");
 var img=document.getElementById('dice');
 img.onClick = function ()
 {
-    img.style.marginRight='200px';
+    img.style.marginLeft='100px';
 }
