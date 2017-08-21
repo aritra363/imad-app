@@ -16,8 +16,8 @@ butt.onclick =function ()
         
     }
     //make request
-    req.open('Get','http://aritrapaul363.imad.hasura-app.io/counter');
-    req.send('null');
+    req.open('Get','http://aritrapaul363.imad.hasura-app.io/counter',true);
+    req.send(null);
   
   
   
