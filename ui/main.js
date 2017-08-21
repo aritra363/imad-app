@@ -5,7 +5,7 @@ butt.onclick =function ()
     var request=new XMLHttpRequests();
     request.onreadystatechange= function()
     { if(request.readystate===XMLHttpRequest.DONE)
-    {
+        {
         if (request.status===200)
         {
           var counter=request.responseText;
@@ -16,7 +16,7 @@ butt.onclick =function ()
         
     }
     //make request
-    request.open('Get','http://aritrapaul363.imad.hasura-app.io/counter',true);
+    request.open('GET','http://aritrapaul363.imad.hasura-app.io/counter',true);
     request.send(null);
   
   
