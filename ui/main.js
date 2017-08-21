@@ -6,7 +6,7 @@ var ml=0;
  function right()
     {   
          ml=ml+1;
-        img.style.marginLeft=ml+'px';
+        img.style.marginRight=ml+'px';
     }
 img.onclick = function ()
 {
