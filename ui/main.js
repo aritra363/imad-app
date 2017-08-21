@@ -5,11 +5,11 @@ var img=document.getElementById('dice');
 var ml=0;
  function right()
     {   
-         ml=ml+10;
+         ml=ml+1;
         img.style.marginLeft=ml+'px';
     }
 img.onclick = function ()
 {
    
-    var inter=setInterval(right,100);
+    var inter=setInterval(right,50);
 }
