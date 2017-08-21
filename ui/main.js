@@ -4,5 +4,9 @@ alert("Hi!bye");
 var img=document.getElementById('dice');
 img.onclick = function ()
 {
-    img.style.marginRight='100px';
+    function right()
+    {   var ml=ml+10;
+        img.style.marginLeft=ml+'px';
+    }
+    var inter=setInterval(right,100);
 }
