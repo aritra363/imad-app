@@ -10,5 +10,5 @@ var img=document.getElementById('dice');
 img.onclick = function ()
 {
    
-    var inter=setInterval(right(),100);
+    var inter=setInterval(right,100);
 }
