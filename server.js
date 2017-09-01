@@ -10,7 +10,7 @@ var config={
     host: "db.imad.hasura-app.io",
     port:"5342",
     password:process.env.db_password
-}
+};
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
