@@ -1,19 +1,8 @@
-
+var counter=0;
 var butt=document.getElementById('count');
 butt.onclick =function ()
-{
-    var request=new XMLHttpRequests();
-    request.onreadystatechange= function()
-    { if(request.readyState===XMLHttpRequest.DONE)
-        {
-        if (request.status===200)
-        {
-          var counter=request.responseText;
-          var span=document.getElementById('c');
-          span.innerHTML=counter.toString(); 
-        }
-    }
-        
+{   counter++;
+    document.getElementById("c").innerHTML=counter;
     }
     //make request
     request.open('GET','http://aritrapaul363.imad.hasura-app.io/counter',true);
@@ -21,4 +10,3 @@ butt.onclick =function ()
   
   
   
-}
