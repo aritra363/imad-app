@@ -4,6 +4,13 @@ var path = require('path');
 var pool=require('pg').Pool;
 var app = express();
 app.use(morgan('combined'));
+var config={
+    user : "aritrapaul363",
+    database : "aritrapaul363@gmail.com",
+    host: "db.imad.hasura-app.io",
+    port:"5342",
+    
+}
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
