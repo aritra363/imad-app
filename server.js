@@ -9,7 +9,7 @@ var config={
     database : "aritrapaul363@gmail.com",
     host: "db.imad.hasura-app.io",
     port:"5342",
-    password:process.env.db_password
+    password:process.env.DB_PASSWORD
 };
 
 app.get('/', function (req, res) {
